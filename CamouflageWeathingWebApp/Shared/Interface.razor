@@ -1,0 +1,47 @@
+﻿<h3>Interface</h3>
+
+<div class="mainframe">
+    <div class="tools">
+        <div class="color-settings-panel">
+            <input type="text" name="schemeName" class="scheme-name" />
+            <div class="color-name-typing">
+                <input type="text" name="colorOneName" class="color-name" />
+                <input type="text" name="colorTwoName" class="color-name" />
+                <input type="text" name="colorThreeName" class="color-name" />
+            </div>
+            <div class="color-choosing">
+                <input type="color" name="colorOne" class="color" />
+                <input type="color" name="colorTwo" class="color" />
+                <input type="color" name="colorThree" class="color" />
+            </div>
+            <div class="color-percentage-typing">
+                <input type="number" name="colorOnePercentage" class="color-percentage" value="0" />
+                <input type="number" name="colorTwoPercentage" class="color-percentage" value="0" />
+                <input type="number" name="colorThreePercentage" class="color-percentage" value="0" />
+            </div>
+        </div>
+        <div class="scheme-settings-panel">
+            <input type="color" name="dividingLinesColor" class="scheme-settings-color" />
+            <input type="color" name="backgroundColor" class="scheme-settings-color" />
+            <input type="color" name="netColor" class="scheme-settings-color" />
+        </div>
+        <div class="editing-panel">
+            <input type="checkbox" name="editing" class="editing-checkbox" />
+            <select name="selectedColor" class="selected-color">
+                <option value="test">test</option>
+            </select>
+        </div>
+        <div class="control-buttons-panel">
+            <button name="generateButton" class="control-buttons">Сгенерировать</button>
+            <button name="saveButton" class="control-buttons">Сохранить</button>
+            <button name="clearButton" class="control-buttons">Очистить</button>
+        </div>
+    </div>
+    <div class="image">
+        <Image />
+    </div>
+</div>
+
+@code {
+
+}
